@@ -1,0 +1,30 @@
+{
+	"storyName": "Tails your too slow",
+	"hideFreeplay": false,
+	"weekBackground": "666",
+	"weekBefore": "week666",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"songs": [
+		[
+			"too-slow",
+			"guest666",
+			[
+				120,
+				0,
+				0
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "tutorial"
+}

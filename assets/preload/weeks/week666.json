@@ -1,0 +1,30 @@
+{
+	"storyName": "Guest ###",
+	"hideFreeplay": false,
+	"weekBackground": "666",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "",
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"emission",
+			"guest666",
+			[
+				120,
+				0,
+				0
+			]
+		]
+	],
+	"weekName": "week666"
+}
