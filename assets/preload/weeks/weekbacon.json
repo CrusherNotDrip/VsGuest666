@@ -1,0 +1,48 @@
+{
+	"storyName": "Vs Funny Bacon Boy",
+	"hideFreeplay": false,
+	"weekBackground": "666",
+	"weekBefore": "week666",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Teriyaki",
+			"bacon",
+			[
+				166,
+				113,
+				73
+			]
+		],
+                [
+			"i-suck-toe",
+			"bacon",
+			[
+				166,
+				113,
+				73
+			]
+		],
+                [
+			"poopis",
+			"bacon",
+			[
+				166,
+				113,
+				73
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Bacon"
+}

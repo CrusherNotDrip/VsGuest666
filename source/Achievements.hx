@@ -12,7 +12,7 @@ using StringTools;
 class Achievements {
 	public static var achievementsStuff:Array<Dynamic> = [ //Name, Description, Hidden achievement
 		["Freaky on a Friday Night",	"Play on a Friday... Night.",							 true],
-		["Im banning you...",    		"Beat Week 666 on Hard with no Misses.",			    false],
+		["She calls me Dad too",        "Beat Week 1 on Hard with no Misses.",			        false],
 		["No More Tricks",				"Beat Week 2 on Hard with no Misses.",					false],
 		["Call Me The Hitman",			"Beat Week 3 on Hard with no Misses.",					false],
 		["Lady Killer",					"Beat Week 4 on Hard with no Misses.",					false],
@@ -31,7 +31,7 @@ class Achievements {
 
 	public static var achievementsUnlocked:Array<Dynamic> = [ //Save string and Achievement tag + is it unlocked?
 		['friday_night_play', false],	//0
-		['week666_nomiss', false],		//1
+		['week1_nomiss', false],		//1
 		['week2_nomiss', false],		//2
 		['week3_nomiss', false],		//3
 		['week4_nomiss', false],		//4

@@ -29,7 +29,7 @@ class CreditsState extends MusicBeatState
 		['Crusher',		'crusher',	"The Coder of the Mod",				'https://twitter.com/CrusherNotDrip',	0xFF6475F3],
 		['Loudy',		'itza_me_loudy_WOOOOO',	'Animation and stuff\n THANK GOD',	                    'https://guest666-no-socials.glitch.me/', 0xFFC30085],
 		['Knot',                'discord',          'Music\n This was finally the person we needed',    'https://guest666-no-socials.glitch.me/', 0xFF6475F3],
-		['Omen',                'rsi',              'Music\n This was another person we needed',        'https://www.youtube.com/channel/UCqPrvW9nFVk1352Jy4xMmQA/featured', 0xFFE01F32],
+		['Omen',                'rsi',              'Music\n and a person who stole everyones ideas\n he wanted that for credits',        'https://www.youtube.com/channel/UCqPrvW9nFVk1352Jy4xMmQA/featured', 0xFFFFFFFF],
 		['Psych Engine Team'],
 		['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	0xFFFFDD33],
 		['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',				'https://twitter.com/river_oaken',		0xFFC30085],

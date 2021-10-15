@@ -9,7 +9,6 @@
 	],
 	"weekBefore": "",
 	"startUnlocked": true,
-	"hideStoryMode": false,
 	"weekCharacters": [
 		"",
 		"",
@@ -24,7 +23,35 @@
 				0,
 				0
 			]
+		],
+		[
+			"piercing",
+			"guest666",
+			[
+				120,
+				0,
+				0
+			],
+			[
+				"unhinged",
+				"guest666",
+				[
+					120,
+					0,
+					0
+				]
+			]
+		],
+		[
+			"unhinged",
+			"guest666",
+			[
+				120,
+				0,
+				0
+			]
 		]
 	],
+	"hideStoryMode": false,
 	"weekName": "week666"
 }
