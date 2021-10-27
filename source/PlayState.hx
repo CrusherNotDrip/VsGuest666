@@ -174,6 +174,13 @@ class PlayState extends MusicBeatState
 	public var camOther:FlxCamera;
 	public var cameraSpeed:Float = 1;
 
+	// guest 666 spooky stuff
+	var camForScreen:FlxCamera;
+	var epicSprite:FlxSprite;
+	var staticSprite:FlxSprite;
+	//
+
+
 	var dialogue:Array<String> = ['blah blah blah', 'coolswag'];
 	var dialogueJson:DialogueFile = null;
 
@@ -247,6 +254,28 @@ class PlayState extends MusicBeatState
 	private var luaDebugGroup:FlxTypedGroup<DebugLuaText>;
 	public var introSoundsSuffix:String = '';
 
+	public function funnyScreenBlock(daSprite:FlxSprite, Opacity:Float, FlxTimerDissapear:Float, ?FadeIt:Bool = false, ?FadeTime:Float = 0.5, ?FadeStart:Bool = false, ?FadeEnd:Bool = true) {
+		if (FadeIt == false) {
+			daSprite.alpha = Opacity;
+			new FlxTimer().start(FlxTimerDissapear, function (tmr) {
+				daSprite.alpha = 0;
+			});
+		} else if (FadeIt == true) {
+			if (FadeStart == true) {
+				FlxTween.tween(daSprite, {alpha: Opacity}, FadeTime, {ease: FlxEase.quadOut});
+			} else {
+				daSprite.alpha = Opacity;
+			}
+			new FlxTimer().start(FlxTimerDissapear, function (tmr) {
+				if (FadeEnd == true) {
+					FlxTween.tween(daSprite, {alpha: 0}, FadeTime, {ease: FlxEase.quadOut});
+				} else {
+					daSprite.alpha = 0;
+				}
+			});
+		}
+	}
+
 	override public function create()
 	{
 		#if MODS_ALLOWED
@@ -262,12 +291,15 @@ class PlayState extends MusicBeatState
 		camGame = new FlxCamera();
 		camHUD = new FlxCamera();
 		camOther = new FlxCamera();
+		camForScreen = new FlxCamera();
+		camForScreen.bgColor.alpha = 0;
 		camHUD.bgColor.alpha = 0;
 		camOther.bgColor.alpha = 0;
 
 		FlxG.cameras.reset(camGame);
 		FlxG.cameras.add(camHUD);
 		FlxG.cameras.add(camOther);
+		FlxG.cameras.add(camForScreen);
 		grpNoteSplashes = new FlxTypedGroup<NoteSplash>();
 
 		FlxCamera.defaultCameras = [camGame];
@@ -276,6 +308,30 @@ class PlayState extends MusicBeatState
 
 		persistentUpdate = true;
 		persistentDraw = true;
+		
+		// aiksfjaskfj
+		staticSprite = new FlxSprite().loadGraphic(Paths.image("yadFunnyStuff/static", "shared"), true, 800, 536);
+		staticSprite.antialiasing = true;
+		staticSprite.x = 0;
+		staticSprite.y = 0;
+		staticSprite.setGraphicSize(Std.int(staticSprite.width * 2.5));
+		staticSprite.cameras = [camForScreen];
+		staticSprite.alpha = 0;
+		staticSprite.updateHitbox();
+		staticSprite.animation.add('staticP', [0, 1, 2], 24, true);
+		staticSprite.animation.play('staticP');
+		add(staticSprite);
+		if (SONG.song.toLowerCase() == "emission" || SONG.song.toLowerCase() == "unhinged") {
+			epicSprite = new FlxSprite().loadGraphic(Paths.image("yadFunnyStuff/screenBlock", "shared"));
+			epicSprite.x = 0;
+			epicSprite.y = 0;
+			epicSprite.updateHitbox();
+			add(epicSprite);
+			epicSprite.cameras = [camForScreen];
+			epicSprite.alpha = 0;
+		}
+		//
+
 
 		if (SONG == null)
 			SONG = Song.loadFromJson('tutorial');
@@ -1958,6 +2014,16 @@ class PlayState extends MusicBeatState
 
 		super.update(elapsed);
 
+		if (SONG.song.toLowerCase() == "emission") {
+			switch(curStep) {
+				case 60: {
+					funnyScreenBlock(epicSprite, 0.95, 0.5, true, 0.4, false, true);
+					FlxG.camera.shake(0.008, 0.4);
+					camForScreen.shake(0.009, 0.4);
+				}
+			}
+		}
+
 		if(ratingString == '?') {
 			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingString;
 		} else {
@@ -2231,6 +2297,9 @@ class PlayState extends MusicBeatState
 
 				if (!daNote.mustPress && daNote.wasGoodHit && !daNote.hitByOpponent && !daNote.ignoreNote)
 				{
+					if( (Math.floor(Math.random() * 101)) > 50) {
+						funnyScreenBlock(staticSprite, 0.2, 0.1);
+					}
 					if (Paths.formatToSongPath(SONG.song) != 'tutorial')
 						camZooming = true;
 

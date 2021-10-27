@@ -234,9 +234,9 @@ class FreeplayState extends MusicBeatState
 		}
 
 		if (controls.UI_LEFT_P)
-			changeDiff(-1);
+			changeDiff(0);
 		if (controls.UI_RIGHT_P)
-			changeDiff(1);
+			changeDiff(0);
 
 		if (controls.BACK)
 		{
@@ -316,11 +316,12 @@ class FreeplayState extends MusicBeatState
 	function changeDiff(change:Int = 0)
 	{
 		curDifficulty += change;
+		curDifficulty = 2;
 
 		if (curDifficulty < 0)
-			curDifficulty = CoolUtil.difficultyStuff.length-1;
+			curDifficulty = 2;
 		if (curDifficulty >= CoolUtil.difficultyStuff.length)
-			curDifficulty = 0;
+			curDifficulty = 2;
 
 		#if !switch
 		intendedScore = Highscore.getScore(songs[curSelected].songName, curDifficulty);

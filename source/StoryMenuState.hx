@@ -225,9 +225,9 @@ class StoryMenuState extends MusicBeatState
 				leftArrow.animation.play('idle');
 
 			if (controls.UI_RIGHT_P)
-				changeDifficulty(1);
+				changeDifficulty(0);
 			if (controls.UI_LEFT_P)
-				changeDifficulty(-1);
+				changeDifficulty(0);
 
 			if (controls.ACCEPT)
 			{
@@ -307,11 +307,12 @@ class StoryMenuState extends MusicBeatState
 	function changeDifficulty(change:Int = 0):Void
 	{
 		curDifficulty += change;
+		curDifficulty = 2;
 
 		if (curDifficulty < 0)
-			curDifficulty = CoolUtil.difficultyStuff.length-1;
+			curDifficulty = 2;
 		if (curDifficulty >= CoolUtil.difficultyStuff.length)
-			curDifficulty = 0;
+			curDifficulty = 2;
 
 		sprDifficultyGroup.forEach(function(spr:FlxSprite) {
 			spr.visible = false;

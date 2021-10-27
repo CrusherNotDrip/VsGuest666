@@ -9,14 +9,14 @@ class DiscordClient
 {
 	public function new()
 	{
-		trace("Discord Client starting...");
+		trace("Discord be loading");
 		DiscordRpc.start({
 			clientID: "863222024192262205",
 			onReady: onReady,
 			onError: onError,
 			onDisconnected: onDisconnected
 		});
-		trace("Discord Client started.");
+		trace("Alright Check Your Discord Status if your on pc discord man");
 
 		while (true)
 		{
