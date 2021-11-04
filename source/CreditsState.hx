@@ -25,11 +25,11 @@ class CreditsState extends MusicBeatState
 
 	private static var creditsStuff:Array<Dynamic> = [ //Name - Icon name - Description - Link - BG Color
 		['Mod Team'],
-		['Hank Gamer',	'hank',	 "The Owner and idea man of the Mod\n Didnt have twitter or somethin",	'https://gamebanana.com/members/2010183', 0xFFF73838],
-		['Crusher',		'crusher',	"The Coder of the Mod",				'https://twitter.com/CrusherNotDrip',	0xFF6475F3],
-		['Knot',                'discord',          'Music\n This was finally the person we needed',    'https://guest666-no-socials.glitch.me/', 0xFF6475F3],
-		['Omen',                'rsi',              'Music\n and a person who stole everyones ideas\n he wanted that for credits',        'https://www.youtube.com/channel/UCqPrvW9nFVk1352Jy4xMmQA/featured', 0xFFFFFFFF],
-		['Yad', 'yad', 'Banana', 'https://gamebanana.com/members/1858027', 0xFF53E52C],
+		['Hank Gamer',	'hank',	 "The Owner and idea man of the Mod\n Didnt have twitter or somethin",	'https://gamebanana.com/members/2010183', 0xFFFF0000],
+		['Crusher',	'crusher',	"The Coder of the Mod\n Amog us", 'https://twitter.com/CrusherNotDrip', 0xFF233296],
+		['Knot', 'placeholder', 'Music\n This was finally the person we needed',    'https://guest666-no-socials.glitch.me/', 0xFFA1A1A1],
+		['Omen', 'rsi', 'Another Music Man',  'https://www.youtube.com/channel/UCqPrvW9nFVk1352Jy4xMmQA/featured', 0xFF83989A],
+		['Yad', 'yad', 'Banana', 'https://gamebanana.com/members/1858027', 0xFF2F7630],
 		[''],
 		['Psych Engine Team'],
 		['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	0xFFFFDD33],
