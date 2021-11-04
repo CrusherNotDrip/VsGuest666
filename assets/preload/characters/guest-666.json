@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-9,
 				10
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "666 NOTE LEFT"
+			"fps": 24,
+			"name": "666 NOTE LEFT",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				-30
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "666 NOTE DOWN"
+			"fps": 24,
+			"name": "666 NOTE DOWN",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-6,
 				50
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "666 NOTE UP"
+			"fps": 24,
+			"name": "666 NOTE UP",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				27
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "666 NOTE RIGHT"
+			"fps": 24,
+			"name": "666 NOTE RIGHT",
+			"indices": []
 		},
 		{
+			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": true,
-			"name": "666 idle dance"
+			"fps": 24,
+			"name": "666 idle dance",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -71,7 +71,7 @@
 	],
 	"camera_position": [
 		0,
-		0
+		-130
 	],
 	"sing_duration": 6.1,
 	"scale": 1
