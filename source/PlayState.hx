@@ -411,14 +411,25 @@ class PlayState extends MusicBeatState
 		switch (curStage)
 		{
 			//I dont script with lua
+			case 'mikogobrrr':
+				{
+					curStage = 'mikogobrrr';
+
+					var bgburgerking:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('mikoburger'));
+					bgburgerking.scrollFactor.set(0.9, 0.9);
+					bgburgerking.active = false;
+					bgburgerking.updateHitbox();
+					add(bgburgerking);
+				}
 			case 'funkyfriday':
                {
                  curStage = 'funkyfriday';
+				 
                  var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('funkyfriday'));
-                 add(bg);
                  bg.scrollFactor.set(0.9, 0.9);
                  bg.active = false;
                  bg.updateHitbox();
+				 add(bg);
 			   }
 			case 'stage': //Week 1
 				var bg:BGSprite = new BGSprite('stageback', -600, -200, 0.9, 0.9);
