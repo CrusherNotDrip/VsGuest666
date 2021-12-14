@@ -68,6 +68,8 @@ class CreditsState extends MusicBeatState
 		['Knot', 'placeholder', 'Music\n This was finally the person we needed',    'https://guest666-no-socials.glitch.me/', '0xFFA1A1A1'],
 		['Omen', 'rsi', 'Another Music Man',  'https://www.youtube.com/channel/UCqPrvW9nFVk1352Jy4xMmQA/featured', '0xFF83989A'],
 		['Yad', 'yad', 'Banana', 'https://gamebanana.com/members/1858027', '0xFF2F7630'],
+		['MayomeSanz', 'mayome', 'A animator that looked at a week old post', 'https://www.youtube.com/channel/UCn3kKerTUFsg98cxHP-nrDg', '0xFF741EB8'],
+		[''],
 		['Psych Engine Team'],
 		['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	'0xFFFFDD33'],
 		['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',				'https://twitter.com/river_oaken',		'0xFFC30085'],
