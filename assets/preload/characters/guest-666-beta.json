@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-9,
+				10
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "666 NOTE LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-30
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "666 NOTE DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				50
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "666 NOTE UP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				27
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "666 NOTE RIGHT",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "666 idle dance",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/guest-666-beta",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "guest666",
+	"flip_x": false,
+	"healthbar_colors": [
+		135,
+		0,
+		0
+	],
+	"camera_position": [
+		0,
+		-130
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

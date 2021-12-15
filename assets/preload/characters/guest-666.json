@@ -1,77 +1,77 @@
 {
 	"animations": [
 		{
-			"loop": false,
-			"offsets": [
-				-9,
-				10
-			],
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "666 NOTE LEFT",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				-30
-			],
-			"anim": "singDOWN",
-			"fps": 24,
-			"name": "666 NOTE DOWN",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-6,
-				50
-			],
-			"anim": "singUP",
-			"fps": 24,
-			"name": "666 NOTE UP",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				27
-			],
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "666 NOTE RIGHT",
-			"indices": []
-		},
-		{
-			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"indices": [],
 			"fps": 24,
-			"name": "666 idle dance",
-			"indices": []
+			"anim": "idle",
+			"loop": false,
+			"name": ":)"
+		},
+		{
+			"offsets": [
+				0,
+				6
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "RIGHT"
+		},
+		{
+			"offsets": [
+				60,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "DOWN"
+		},
+		{
+			"offsets": [
+				11,
+				10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "G666 left"
+		},
+		{
+			"offsets": [
+				24,
+				76
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/guest-666",
+	"image": "characters/Guest_666",
 	"position": [
 		0,
-		0
+		210
 	],
 	"healthicon": "guest666",
 	"flip_x": false,
 	"healthbar_colors": [
-		135,
+		255,
 		0,
 		0
 	],
 	"camera_position": [
 		0,
-		-130
+		0
 	],
 	"sing_duration": 6.1,
 	"scale": 1
