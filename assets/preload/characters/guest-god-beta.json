@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				-9,
 				10
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "666 left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "666 left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				-30
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "666 down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "666 down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-6,
 				50
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "666 up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "666 up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				27
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "666 right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "666 right"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": true,
 			"fps": 24,
-			"name": "666 lide",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "666 lide"
 		}
 	],
 	"no_antialiasing": true,
@@ -62,7 +62,7 @@
 		0,
 		0
 	],
-	"healthicon": "guest666",
+	"healthicon": "guest-666-beta",
 	"flip_x": false,
 	"healthbar_colors": [
 		135,
