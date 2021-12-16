@@ -60,14 +60,13 @@ class PlayState extends MusicBeatState
 {
 	public static var STRUM_X = 42;
 	public static var STRUM_X_MIDDLESCROLL = -278;
-
 	public static var ratingStuff:Array<Dynamic> = [
 		['You Suck!', 0.2], //From 0% to 19%
 		['Shit', 0.4], //From 20% to 39%
 		['Bad', 0.5], //From 40% to 49%
 		['Bruh', 0.6], //From 50% to 59%
 		['Meh', 0.69], //From 60% to 68%
-		['Nice', 0.7], //69%
+		['Nice', 0.7], //69% at line 69 :-O
 		['Good', 0.8], //From 70% to 79%
 		['Great', 0.9], //From 80% to 89%
 		['Sick!', 1], //From 90% to 99%
@@ -319,7 +318,7 @@ class PlayState extends MusicBeatState
 		staticSprite.animation.add('staticP', [0, 1, 2], 24, true);
 		staticSprite.animation.play('staticP');
 		add(staticSprite);
-		if (SONG.song.toLowerCase() == "emission" || SONG.song.toLowerCase() == "unhinged") {
+		if (SONG.song.toLowerCase() == "irritability" || SONG.song.toLowerCase() == "unhinged") {
 			epicSprite = new FlxSprite().loadGraphic(Paths.image("yadFunnyStuff/screenBlock", "shared"));
 			epicSprite.x = 0;
 			epicSprite.y = 0;
@@ -417,6 +416,7 @@ class PlayState extends MusicBeatState
 				 bgburgerking.active = false;
 				 bgburgerking.updateHitbox();
 				 add(bgburgerking);
+				 //Hehe funny line
 				}
 			case 'funkyfriday':
 				{
@@ -1081,7 +1081,7 @@ class PlayState extends MusicBeatState
 				case 'senpai' | 'roses' | 'thorns':
 					if(daSong == 'roses') FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
-				case 'emission':
+				case 'irritability':
 					startVideo('emission');
 
 				default:
@@ -2022,7 +2022,7 @@ class PlayState extends MusicBeatState
 		if(!inCutscene) {
 			var lerpVal:Float = CoolUtil.boundTo(elapsed * 2.4 * cameraSpeed, 0, 1);
 			camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
-			if (SONG.song.toLowerCase() == "emission") {
+			if (SONG.song.toLowerCase() == "irritability") {
 				switch(curStep) {
 					case 60: {
 						funnyScreenBlock(epicSprite, 0.95, 0.5, true, 0.4, false, true);

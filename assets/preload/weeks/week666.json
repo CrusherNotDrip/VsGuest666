@@ -2,13 +2,14 @@
 	"storyName": "Guest ###",
 	"hideFreeplay": false,
 	"weekBackground": "666",
+	"weekBefore": "",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "",
 	"startUnlocked": true,
+	"hideStoryMode": false,
 	"weekCharacters": [
 		"",
 		"",
@@ -16,19 +17,19 @@
 	],
 	"songs": [
 		[
-			"emission",
+			"irritability",
 			"guest666",
 			[
-				120,
+				255,
 				0,
 				0
 			]
 		],
 		[
-			"piercing",
+			"core",
 			"guest666",
 			[
-				120,
+				255,
 				0,
 				0
 			],
@@ -46,12 +47,11 @@
 			"unhinged",
 			"guest666",
 			[
-				120,
+				255,
 				0,
 				0
 			]
 		]
 	],
-	"hideStoryMode": false,
 	"weekName": "week666"
 }
