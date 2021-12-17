@@ -213,6 +213,10 @@ class PlayState extends MusicBeatState
 	var wiggleShit:WiggleEffect = new WiggleEffect();
 	var bgGhouls:BGSprite;
 
+	var grass:BGSprite; //Fortnite kids, go touch this
+	var trees:BGSprite;
+	var god:BGSprite;
+
 	public var songScore:Int = 0;
 	public var songHits:Int = 0;
 	public var songMisses:Int = 0;
@@ -373,6 +377,8 @@ class PlayState extends MusicBeatState
 					curStage = 'school';
 				case 'thorns':
 					curStage = 'schoolEvil';
+				case 'irritability' | 'core' | 'unhinged':
+					curStage = 'park';
 				default:
 					curStage = 'stage';
 			}
@@ -406,27 +412,49 @@ class PlayState extends MusicBeatState
 
 		switch (curStage)
 		{
+			case 'park':
+				{
+					var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('sky'));
+					bg.scrollFactor.set(0.7, 0.7);
+					bg.active = false;
+					bg.updateHitbox();
+					add(bg);
+
+					var grass:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('grass'));
+					grass.scrollFactor.set(1, 1);
+					grass.active = false;
+					grass.updateHitbox();
+					add(grass);
+
+					var trees:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('trees'));
+					trees.scrollFactor.set(0.9, 0.9);
+					trees.active = false;
+					trees.updateHitbox();
+					add(trees);
+
+					var god:FlxSprite = new FlxSprite(70, -70).loadGraphic(Paths.image('gueststatue'));
+					god.scrollFactor.set(1, 1);
+					god.active = false;
+					god.updateHitbox();
+					add(god);
+				}
 			//I dont script with lua
 			case 'mikogobrrr':
 				{
-			     curStage = 'mikogobrrr';
-			
-				 var bgburgerking:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('mikoburger'));
-				 bgburgerking.scrollFactor.set(0.9, 0.9);
-				 bgburgerking.active = false;
-				 bgburgerking.updateHitbox();
-				 add(bgburgerking);
-				 //Hehe funny line
+				    var bgburgerking:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('mikoburger'));
+				    bgburgerking.scrollFactor.set(1, 1);
+				    bgburgerking.active = false;
+				    bgburgerking.updateHitbox();
+				    add(bgburgerking);
+				    //Hehe funny line
 				}
 			case 'funkyfriday':
-				{
-				 curStage = 'funkyfriday';
-							 
-				 var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('funkyfriday'));
-				 bg.scrollFactor.set(0.9, 0.9);
-				 bg.active = false;
-				 bg.updateHitbox();
-				 add(bg);
+				{			 
+				    var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('funkyfriday'));
+				    bg.scrollFactor.set(1, 1);
+				    bg.active = false;
+				    bg.updateHitbox();
+				    add(bg);
 			    }			
 			case 'stage': //Week 1
 				var bg:BGSprite = new BGSprite('stageback', -600, -200, 0.9, 0.9);

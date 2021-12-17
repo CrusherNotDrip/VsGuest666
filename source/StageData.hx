@@ -45,6 +45,8 @@ class StageData {
 					stage = 'school';
 				case 'thorns':
 					stage = 'schoolEvil';
+				case 'irritability' | 'core' | 'unhinged':
+					stage = 'park';
 				default:
 					stage = 'stage';
 			}
