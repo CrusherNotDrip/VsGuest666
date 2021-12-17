@@ -4,9 +4,9 @@
 	"weekBackground": "bacon",
 	"weekBefore": "week666",
 	"freeplayColor": [
-		146,
-		113,
-		253
+		206,
+		206,
+		206
 	],
 	"startUnlocked": false,
 	"weekCharacters": [
@@ -19,27 +19,27 @@
 			"Teriyaki",
 			"bacon",
 			[
-				166,
-				113,
-				73
+				206,
+				206,
+				206
 			]
 		],
                 [
-			"i-suck-toe",
+			"i-suc-toe",
 			"bacon",
 			[
-				166,
-				113,
-				73
+				206,
+				206,
+				206
 			]
 		],
                 [
 			"poopis",
 			"bacon",
 			[
-				166,
-				113,
-				73
+				206,
+				206,
+				206
 			]
 		]
 	],

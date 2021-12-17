@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Baconhead.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Bacon Down0000" x="0" y="0" width="454" height="560" frameX="-7" frameY="-18" frameWidth="461" frameHeight="1078"/>
+	<SubTexture name="Bacon Down0001" x="0" y="0" width="454" height="560" frameX="-7" frameY="-18" frameWidth="461" frameHeight="1078"/>
+	<SubTexture name="Bacon Down0002" x="454" y="0" width="449" height="541" frameX="0" frameY="-37" frameWidth="461" frameHeight="1078"/>
+	<SubTexture name="Bacon Down0003" x="454" y="0" width="449" height="541" frameX="0" frameY="-37" frameWidth="461" frameHeight="1078"/>
+	<SubTexture name="Bacon Down0004" x="903" y="0" width="433" height="567" frameX="-10" frameY="-11" frameWidth="461" frameHeight="1078"/>
+	<SubTexture name="Bacon Down0005" x="903" y="0" width="433" height="567" frameX="-10" frameY="-11" frameWidth="461" frameHeight="1078"/>
+	<SubTexture name="Bacon Down0006" x="1336" y="0" width="423" height="578" frameX="-14" frameY="0" frameWidth="461" frameHeight="1078"/>
+	<SubTexture name="Bacon Down0007" x="1336" y="0" width="423" height="578" frameX="-14" frameY="0" frameWidth="461" frameHeight="1078"/>
+	<SubTexture name="Bacon Down0008" x="1336" y="0" width="423" height="578" frameX="-14" frameY="0" frameWidth="461" frameHeight="1078"/>
+	<SubTexture name="Bacon Down0009" x="1336" y="0" width="423" height="578" frameX="-14" frameY="0" frameWidth="461" frameHeight="1078"/>
+	<SubTexture name="Bacon Down0010" x="1336" y="0" width="423" height="578" frameX="-14" frameY="0" frameWidth="461" frameHeight="1078"/>
+	<SubTexture name="Bacon Down0011" x="1336" y="0" width="423" height="578" frameX="-14" frameY="0" frameWidth="461" frameHeight="1078"/>
+	<SubTexture name="Bacon Down0012" x="1336" y="0" width="423" height="578" frameX="-14" frameY="0" frameWidth="461" frameHeight="1078"/>
+	<SubTexture name="Bacon Down0013" x="1336" y="0" width="423" height="578" frameX="-14" frameY="0" frameWidth="461" frameHeight="1078"/>
+	<SubTexture name="Bacon Idle0000" x="1759" y="0" width="346" height="625" frameX="-17" frameY="-25" frameWidth="370" frameHeight="1150"/>
+	<SubTexture name="Bacon Idle0001" x="1759" y="0" width="346" height="625" frameX="-17" frameY="-25" frameWidth="370" frameHeight="1150"/>
+	<SubTexture name="Bacon Idle0002" x="2105" y="0" width="352" height="612" frameX="0" frameY="-38" frameWidth="370" frameHeight="1150"/>
+	<SubTexture name="Bacon Idle0003" x="2457" y="0" width="343" height="629" frameX="-15" frameY="-21" frameWidth="370" frameHeight="1150"/>
+	<SubTexture name="Bacon Idle0004" x="2800" y="0" width="334" height="647" frameX="-31" frameY="-3" frameWidth="370" frameHeight="1150"/>
+	<SubTexture name="Bacon Idle0005" x="2800" y="0" width="334" height="647" frameX="-31" frameY="-3" frameWidth="370" frameHeight="1150"/>
+	<SubTexture name="Bacon Idle0006" x="3134" y="0" width="335" height="650" frameX="-35" frameY="0" frameWidth="370" frameHeight="1150"/>
+	<SubTexture name="Bacon Idle0007" x="3134" y="0" width="335" height="650" frameX="-35" frameY="0" frameWidth="370" frameHeight="1150"/>
+	<SubTexture name="Bacon Idle0008" x="3134" y="0" width="335" height="650" frameX="-35" frameY="0" frameWidth="370" frameHeight="1150"/>
+	<SubTexture name="Bacon Idle0009" x="3134" y="0" width="335" height="650" frameX="-35" frameY="0" frameWidth="370" frameHeight="1150"/>
+	<SubTexture name="Bacon Idle0010" x="3134" y="0" width="335" height="650" frameX="-35" frameY="0" frameWidth="370" frameHeight="1150"/>
+	<SubTexture name="Bacon Idle0011" x="3134" y="0" width="335" height="650" frameX="-35" frameY="0" frameWidth="370" frameHeight="1150"/>
+	<SubTexture name="Bacon Idle0012" x="3134" y="0" width="335" height="650" frameX="-35" frameY="0" frameWidth="370" frameHeight="1150"/>
+	<SubTexture name="Bacon Idle0013" x="3134" y="0" width="335" height="650" frameX="-35" frameY="0" frameWidth="370" frameHeight="1150"/>
+	<SubTexture name="Bacon Left0000" x="3469" y="0" width="545" height="865" frameX="0" frameY="0" frameWidth="577" frameHeight="1366"/>
+	<SubTexture name="Bacon Left0001" x="3469" y="0" width="545" height="865" frameX="0" frameY="0" frameWidth="577" frameHeight="1366"/>
+	<SubTexture name="Bacon Left0002" x="0" y="865" width="541" height="829" frameX="-12" frameY="-37" frameWidth="577" frameHeight="1366"/>
+	<SubTexture name="Bacon Left0003" x="0" y="865" width="541" height="829" frameX="-12" frameY="-37" frameWidth="577" frameHeight="1366"/>
+	<SubTexture name="Bacon Left0004" x="541" y="865" width="534" height="780" frameX="-35" frameY="-85" frameWidth="577" frameHeight="1366"/>
+	<SubTexture name="Bacon Left0005" x="1075" y="865" width="544" height="753" frameX="-33" frameY="-112" frameWidth="577" frameHeight="1366"/>
+	<SubTexture name="Bacon Left0006" x="1075" y="865" width="544" height="753" frameX="-33" frameY="-112" frameWidth="577" frameHeight="1366"/>
+	<SubTexture name="Bacon Left0007" x="1075" y="865" width="544" height="753" frameX="-33" frameY="-112" frameWidth="577" frameHeight="1366"/>
+	<SubTexture name="Bacon Left0008" x="1075" y="865" width="544" height="753" frameX="-33" frameY="-112" frameWidth="577" frameHeight="1366"/>
+	<SubTexture name="Bacon Left0009" x="1075" y="865" width="544" height="753" frameX="-33" frameY="-112" frameWidth="577" frameHeight="1366"/>
+	<SubTexture name="Bacon Left0010" x="1075" y="865" width="544" height="753" frameX="-33" frameY="-112" frameWidth="577" frameHeight="1366"/>
+	<SubTexture name="Bacon Left0011" x="1075" y="865" width="544" height="753" frameX="-33" frameY="-112" frameWidth="577" frameHeight="1366"/>
+	<SubTexture name="Bacon Left0012" x="1075" y="865" width="544" height="753" frameX="-33" frameY="-112" frameWidth="577" frameHeight="1366"/>
+	<SubTexture name="Bacon Left0013" x="1075" y="865" width="544" height="753" frameX="-33" frameY="-112" frameWidth="577" frameHeight="1366"/>
+	<SubTexture name="Bacon Right0000" x="1619" y="865" width="454" height="603" frameX="-21" frameY="-12" frameWidth="504" frameHeight="1116"/>
+	<SubTexture name="Bacon Right0001" x="2073" y="865" width="487" height="615" frameX="-17" frameY="0" frameWidth="504" frameHeight="1116"/>
+	<SubTexture name="Bacon Right0002" x="2560" y="865" width="464" height="612" frameX="-19" frameY="-4" frameWidth="504" frameHeight="1116"/>
+	<SubTexture name="Bacon Right0003" x="3024" y="865" width="437" height="608" frameX="-20" frameY="-8" frameWidth="504" frameHeight="1116"/>
+	<SubTexture name="Bacon Right0004" x="3461" y="865" width="412" height="603" frameX="0" frameY="-12" frameWidth="504" frameHeight="1116"/>
+	<SubTexture name="Bacon Right0005" x="3461" y="865" width="412" height="603" frameX="0" frameY="-12" frameWidth="504" frameHeight="1116"/>
+	<SubTexture name="Bacon Right0006" x="3461" y="865" width="412" height="603" frameX="0" frameY="-12" frameWidth="504" frameHeight="1116"/>
+	<SubTexture name="Bacon Right0007" x="3461" y="865" width="412" height="603" frameX="0" frameY="-12" frameWidth="504" frameHeight="1116"/>
+	<SubTexture name="Bacon Right0008" x="3461" y="865" width="412" height="603" frameX="0" frameY="-12" frameWidth="504" frameHeight="1116"/>
+	<SubTexture name="Bacon Right0009" x="3461" y="865" width="412" height="603" frameX="0" frameY="-12" frameWidth="504" frameHeight="1116"/>
+	<SubTexture name="Bacon Right0010" x="3461" y="865" width="412" height="603" frameX="0" frameY="-12" frameWidth="504" frameHeight="1116"/>
+	<SubTexture name="Bacon Right0011" x="3461" y="865" width="412" height="603" frameX="0" frameY="-12" frameWidth="504" frameHeight="1116"/>
+	<SubTexture name="Bacon Right0012" x="3461" y="865" width="412" height="603" frameX="0" frameY="-12" frameWidth="504" frameHeight="1116"/>
+	<SubTexture name="Bacon Right0013" x="3461" y="865" width="412" height="603" frameX="0" frameY="-12" frameWidth="504" frameHeight="1116"/>
+	<SubTexture name="Bacon Up0000" x="0" y="1694" width="438" height="811" frameX="-21" frameY="-15" frameWidth="468" frameHeight="1326"/>
+	<SubTexture name="Bacon Up0001" x="0" y="1694" width="438" height="811" frameX="-21" frameY="-15" frameWidth="468" frameHeight="1326"/>
+	<SubTexture name="Bacon Up0002" x="438" y="1694" width="468" height="826"/>
+	<SubTexture name="Bacon Up0003" x="438" y="1694" width="468" height="826"/>
+	<SubTexture name="Bacon Up0004" x="906" y="1694" width="435" height="806" frameX="-28" frameY="-20" frameWidth="468" frameHeight="1326"/>
+	<SubTexture name="Bacon Up0005" x="906" y="1694" width="435" height="806" frameX="-28" frameY="-20" frameWidth="468" frameHeight="1326"/>
+	<SubTexture name="Bacon Up0006" x="1341" y="1694" width="419" height="787" frameX="-42" frameY="-39" frameWidth="468" frameHeight="1326"/>
+	<SubTexture name="Bacon Up0007" x="1341" y="1694" width="419" height="787" frameX="-42" frameY="-39" frameWidth="468" frameHeight="1326"/>
+	<SubTexture name="Bacon Up0008" x="1341" y="1694" width="419" height="787" frameX="-42" frameY="-39" frameWidth="468" frameHeight="1326"/>
+	<SubTexture name="Bacon Up0009" x="1341" y="1694" width="419" height="787" frameX="-42" frameY="-39" frameWidth="468" frameHeight="1326"/>
+	<SubTexture name="Bacon Up0010" x="1341" y="1694" width="419" height="787" frameX="-42" frameY="-39" frameWidth="468" frameHeight="1326"/>
+	<SubTexture name="Bacon Up0011" x="1341" y="1694" width="419" height="787" frameX="-42" frameY="-39" frameWidth="468" frameHeight="1326"/>
+	<SubTexture name="Bacon Up0012" x="1341" y="1694" width="419" height="787" frameX="-42" frameY="-39" frameWidth="468" frameHeight="1326"/>
+	<SubTexture name="Bacon Up0013" x="1341" y="1694" width="419" height="787" frameX="-42" frameY="-39" frameWidth="468" frameHeight="1326"/>
+</TextureAtlas>

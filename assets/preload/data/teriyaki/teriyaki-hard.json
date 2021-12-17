@@ -1,7 +1,7 @@
 {
 	"song": {
 		"player1": "bf",
-		"player2": "dad",
+		"player2": "baconbro",
 		"notes": [
 			{
 				"lengthInSteps": 16,
@@ -967,7 +967,7 @@
 		],
 		"player3": "gf",
 		"song": "teriyaki",
-		"stage": "mikogobrrr",
+		"stage": "park",
 		"needsVoices": true,
 		"validScore": true,
 		"speed": 1.9,

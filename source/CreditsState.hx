@@ -69,7 +69,7 @@ class CreditsState extends MusicBeatState
 		['Omen', 'rsi', 'Another Music Man',  'https://www.youtube.com/channel/UCqPrvW9nFVk1352Jy4xMmQA/featured', '0xFF83989A'],
 		['Yad', 'yad', 'Banana', 'https://gamebanana.com/members/1858027', '0xFF2F7630'], //<-- Another Coder right here btw
 		['MayomeSanz', 'mayome', 'A animator that looked at a week old post', 'https://www.youtube.com/channel/UCn3kKerTUFsg98cxHP-nrDg', '0xFF741EB8'],
-		['Darvi', 'placeholder', 'Another animator that looked at a week old post', 'https://guest666-no-socials.glitch.me/', '0xFFA1A1A1'],
+		['Stizzy', 'stizzy', 'Another animator that looked at a week old post', 'https://www.youtube.com/channel/UCuA3z9nZZvY_I92f6Yk1sig', '0xFF330099'],
 		[''],
 		['Psych Engine Team'],
 		['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	'0xFFFFDD33'],
