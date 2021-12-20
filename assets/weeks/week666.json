@@ -1,0 +1,57 @@
+{
+	"storyName": "Guest 666",
+	"hideFreeplay": false,
+	"weekBackground": "666",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"irritability",
+			"guest666",
+			[
+				255,
+				0,
+				0
+			]
+		],
+		[
+			"core",
+			"guest666",
+			[
+				255,
+				0,
+				0
+			],
+			[
+				"unhinged",
+				"guest666",
+				[
+					120,
+					0,
+					0
+				]
+			]
+		],
+		[
+			"eventually",
+			"guest666",
+			[
+				255,
+				0,
+				0
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "week666"
+}

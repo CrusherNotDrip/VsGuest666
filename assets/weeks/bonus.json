@@ -1,0 +1,30 @@
+{
+	"storyName": "Complete the other weeks then come back",
+	"hideFreeplay": false,
+	"weekBackground": "666",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "weekbacon",
+	"startUnlocked": false,
+	"songs": [
+		[
+			"cycles",
+			"guest666",
+			[
+				200,
+				120,
+				255
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "bonus"
+}
