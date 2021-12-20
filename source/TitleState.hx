@@ -71,8 +71,8 @@ class TitleState extends MusicBeatState
 			}
 		}
 		#end
-		
-		#if CHECK_FOR_UPDATES
+		// I dont think Outdated stuff works on 0.4.2
+		#if CHECK_FOR_UPDATES 
 		if(!closedState) {
 			trace('checking for update');
 			var http = new haxe.Http("https://raw.githubusercontent.com/CrusherMods/vsguest666/main/gitVersion.txt");
