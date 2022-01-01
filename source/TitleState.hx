@@ -71,7 +71,7 @@ class TitleState extends MusicBeatState
 			}
 		}
 		#end
-		// I dont think Outdated stuff works on 0.4.2
+		// I dont think Outdated stuff works on 0.4.2 Edit: NVM IT DOES JUST MODIFY PROJECT XML
 		#if CHECK_FOR_UPDATES 
 		if(!closedState) {
 			trace('checking for update');
