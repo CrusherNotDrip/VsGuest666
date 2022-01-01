@@ -63,7 +63,7 @@ class CreditsState extends MusicBeatState
 		#end
 		var pisspoop = [ //Name - Icon name - Description - Link - BG Color
 		['Mod Team'],
-		['Crusher',	'crusher',	"The Owner and Coder of the Mod\n Amog us", 'https://twitter.com/CrusherNotDrip', '0xFF233296'],
+		['CrusherNotDrip',	'crusher',	"The Owner and Coder of the Mod\n Amog us", 'https://twitter.com/CrusherNotDrip', '0xFF233296'],
 		['Hank Gamer',	'hank',	 "The Co-Owner and Artist/Cutscene Maker",	'https://gamebanana.com/members/2010183', '0xFFFF0000'],
 		['Knot', 'placeholder', 'Music\n This was finally the person we needed',    'https://guest666-no-socials.glitch.me/', '0xFFA1A1A1'],
 		['Omen', 'rsi', 'Another Music Man',  'https://www.youtube.com/channel/UCqPrvW9nFVk1352Jy4xMmQA/featured', '0xFF83989A'],
